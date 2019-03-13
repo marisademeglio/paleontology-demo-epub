@@ -1,14 +1,68 @@
+:root {
+  --acegreen: rgb(119, 227, 0);
+  --aceblue: rgb(34, 199, 240);
+  --aceblue-pale: rgba(34, 199, 240, .1);
+  --acegreen-pale: rgba(119, 227, 0, .1);
+  --pale-orange: rgba(255, 142, 30, .1);
+}
+
 div.meta {
 
 }
 
+body {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
 pre {
   display: scroll;
-  height: 15rem;
+  max-height: 15rem;
   width: 80%;
   color: maroon !important;
 }
 
 code {
   color: maroon !important;
+  font-family: Menlo, Consolas, &quot;DejaVu Sans Mono&quot;, monospace;
+}
+
+p.src {
+  font-style: italic;
+}
+
+.comment {
+  font-style: italic;
+}
+span.title {
+  font-style: italic;
+}
+
+div.flex {
+  display: flex;
+}
+
+div.flex img {
+  border: thin black solid;
+}
+
+div.flex p {
+  flex: 0 0 10em;
+  font-style: italic;
+  padding-right: 2rem;
+}
+
+span.acetab {
+  font-weight: bolder;
+}
+
+div.wider {
+  width: 60% !important;
+}
+div.infobox {
+  border: 1px solid var(--acegreen);
+  background-color: var(--pale-orange);
+  border-radius: 4px;
+  padding: 1rem;
+  width: 50%;
+  margin-bottom: 2rem;
 }
