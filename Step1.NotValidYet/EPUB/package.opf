@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="uid" prefix="cc:http://creativecommons.org/ns#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title id="title">Paleontology</dc:title>
+    <dc:creator>Wikipedia</dc:creator>
+    <dc:identifier id="uid">com.github.marisademeglio.epub-accessibility-testing-demo-files.paleontology</dc:identifier>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2019-03-09T00:00:00Z</meta>
+    <dc:publisher>DEMO BOOK</dc:publisher>
+    <dc:contributor>Marisa DeMeglio</dc:contributor>
+    <dc:description>EPUB version of (parts of) the Wikipedia page about paleontology</dc:description>
+    <dc:rights>This work is licensed under a Creative Commons Attribution-Share Alike (CC BY-SA) license.</dc:rights>
+    <link rel="cc:license" href="http://creativecommons.org/licenses/by-sa/3.0/"/>
+    <meta property="cc:attributionURL">https://en.wikipedia.org/wiki/Paleontology</meta>
+  </metadata>
+  <manifest>
+    <item id="font1" href="fonts/Quicksand_Light.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="font2" href="fonts/Quicksand_Bold_Oblique.otf" media-type="application/vnd.ms-opentype"/>
+
+    <item id="css" href="css/style.css" media-type="TODO"/>
+
+    <item id="img1" href="images/TREX.jpg" media-type="image/jpeg" properties="cover-image"/>
+
+    <item id="img2" href="images/Biological_classification_L_Pengo.svg" media-type="TODO"/>
+    <item id="img3" href="images/CambrianRusophycus.jpg" media-type="image/jpeg"/>
+    <item id="img4" href="images/Cuvier_elephant_jaw.jpg" media-type="image/jpeg"/>
+    <item id="img5" href="images/Europasaurus_Praeparation.JPG" media-type="image/jpeg"/>
+    <item id="img6" href="images/Extinction_intensity.svg" media-type="TODO"/>
+    <item id="img7" href="images/Haikouichthys4.png" media-type="image/png"/>
+    <item id="img8" href="images/House_sparrow04.jpg" media-type="image/jpeg"/>
+    <item id="img9" href="images/Joda_paleontologist.jpg" media-type="image/jpeg"/>
+    <item id="img10" href="images/Marrella_(fossil).png" media-type="image/png"/>
+    <item id="img11" href="images/Opabinia_BW2.jpg" media-type="image/jpeg"/>
+    <item id="img12" href="images/Phanerozoic_biodiversity_blank_01.png" media-type="image/png"/>
+    <item id="img13" href="images/Runzelmarken.jpg" media-type="image/jpeg"/>
+    <item id="img14" href="images/TREX.jpg" media-type="image/jpeg"/>
+    <item id="img15" href="images/Yanoconodon_BW.jpg" media-type="image/jpeg"/>
+
+    <item id="cover" href="xhtml/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" properties="nav" href="xhtml/toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="intro" href="xhtml/intro.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p1" href="xhtml/p1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p2" href="xhtml/p2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p3" href="xhtml/p3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p4" href="xhtml/p4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p5" href="xhtml/p5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p6" href="xhtml/p6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p7" href="xhtml/p7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="refs" href="xhtml/refs.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="intro"/>
+    <itemref idref="p1"/>
+    <itemref idref="p2"/>
+    <itemref idref="p3"/>
+    <itemref idref="p4"/>
+    <itemref idref="p5"/>
+    <itemref idref="p6"/>
+    <itemref idref="p7"/>
+    <itemref idref="refs"/>
+  </spine>
+</package>

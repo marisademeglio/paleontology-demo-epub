@@ -1,0 +1,63 @@
+body {
+  font-family: 'Trueno', Helvetica, Arial;
+  margin: 5rem;
+}
+sup {
+
+}
+figure {
+  border: 4px orange solid;
+  border-radius: 10px;
+  background-color: lightyellow;
+  width: 30rem;
+  margin: 2rem;
+  padding: 2rem;
+
+}
+figcaption {
+  font-family: 'TruenoIt';
+}
+h1 {
+  font-family: 'TruenoBd';
+}
+div.flex {
+  display: flex;
+}
+#toc {
+
+}
+
+div[role=note] {
+  padding: 3rem;
+  background-color: lightblue;
+  border: 4px darkblue solid;
+  border-radius: 10px;
+  font-family: 'TruenoIt';
+}
+
+ol.references {
+  margin: 5rem;
+}
+
+.cover * {
+  text-align: center;
+}
+
+@font-face {
+    font-family: 'Trueno';
+    src: url('../fonts/TruenoLt.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TruenoBd';
+    src: url('../fonts/TruenoBd.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TruenoIt';
+    src: url('../fonts/TruenoLtIt.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
