@@ -1,0 +1,14 @@
+div.meta {
+
+}
+
+pre {
+  display: scroll;
+  height: 15rem;
+  width: 80%;
+  color: maroon !important;
+}
+
+code {
+  color: maroon !important;
+}
