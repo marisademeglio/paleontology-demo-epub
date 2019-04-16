@@ -1,6 +1,6 @@
 # paleontology-demo-epub
 
-This repository accompanies a blog post on accessibility conformance testing (link pending). It includes several versions of a sample publication.
+This repository accompanies a [blog post on accessibility conformance testing](https://www.booknetcanada.ca/blog/2019/3/15/act-in-3-acts-an-overview-of-epub-accessibility-conformance-testing). It includes several versions of a sample publication.
 
 The text and images in this publication were copied directly from from Wikipedia's page on [Paleontology](https://en.wikipedia.org/wiki/Paleontology) and is licensed [CC-BY-SA](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
 
